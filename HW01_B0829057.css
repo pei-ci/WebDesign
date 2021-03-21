@@ -1,0 +1,40 @@
+
+body{
+    background-color:gainsboro;
+    font-size: 1.5rem;
+}
+tr,td,table{
+    text-align:left;
+    background-color:#D8BFD8;
+    border:1px #A3A3FF solid;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+th{
+    text-align:center;
+}
+.Container{
+    width: 1000px;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+}
+.Box{
+    background-color:#D8BFD8;
+    width:12rem;
+    height:13rem;
+    display:inline-block;/*在一行中呈現*/
+}
+.Head{
+    text-align: center;
+}
+
+
+@media  screen and (max-width:600px) {
+    .Container{
+        width:100%;
+    }
+}
